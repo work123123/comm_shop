@@ -74,7 +74,7 @@ export default {
       }
       this.$message.success(res.meta.msg)
       this.goodslist = res.data.goods
-      console.log(res)
+      // console.log(res)
       this.total = res.data.total
     },
     handleSizeChange (val) {
